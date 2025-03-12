@@ -41,8 +41,11 @@ If an attacker places a malicious `icu.dll` in the same directory, WinMerge will
 Copy icu.dll to: C:\Program Files\WinMerge\
 
 ### 3. Execute the attack
- - 3.1 Open WinMerge.exe
- - 3.2 Upon execution:
+
+3.1 Open WinMerge.exe
+
+3.2 Upon execution:
+
   - ✅ calc.exe will launch → Confirms successful code execution
     
   - ✅ A file privilege_test.txt will be created in C:\Users\Public\
@@ -72,11 +75,13 @@ Example: tnagata-pc\tnagata
  - ✔️ Load DLLs using absolute paths instead of relying on search order.
 
 👤 Discoverer(s)
- Toshiro Nagata Bolivar (Open-Sec)
+ - Toshiro Nagata Bolivar (Open-Sec)
 
 🎥 PoC Video
- https://youtu.be/y75aEasRxOo
+ -  https://youtu.be/y75aEasRxOo
 
 ✅ Status
+
  - 🟢 CVE Report Submitted
+   
  - 🟢 Awaiting Confirmation from MITRE
