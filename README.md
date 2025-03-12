@@ -44,17 +44,22 @@ Copy icu.dll to: C:\Program Files\WinMerge\
  - 3.1 Open WinMerge.exe
  - 3.2 Upon execution:
   - ✅ calc.exe will launch → Confirms successful code execution
+    
   - ✅ A file privilege_test.txt will be created in C:\Users\Public\
+    
   - ✅ Open privilege_test.txt to check the execution context: tnagata-pc\tnagata
+    
   - ❌ No privilege escalation confirmed
 
 ### 4. Expected Output
 ✅ calc.exe launches → Confirms code execution
+
 ✅ privilege_test.txt contains the execution context
 
 Example: tnagata-pc\tnagata
 
 ➡️ If the output shows nt authority/system → Privilege escalation confirmed
+
 ➡️ If the output shows current user (tnagata) → Code execution confirmed
 
 🔥 Impact
