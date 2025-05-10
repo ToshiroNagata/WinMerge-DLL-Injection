@@ -84,4 +84,4 @@ Example: tnagata-pc\tnagata
 
  - 🟢 CVE Report Submitted
    
- - 🟢 Awaiting Confirmation from MITRE
+ - 🟢 Awaiting Confirmation 
